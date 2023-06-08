@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Välkommen till Benjo Exclusive">
+    <title>Benjo Exclusive - Välkommen</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <header>
+
+            <img class="header-logo" src="benjo_exclusice_logo.webp" alt="">
+            <img class="header-img" src="benjo_exclusive_start.webp" alt="">
+        </header>
+        <nav>
+            <a class="active" href="index.html">Välkommen</a>
+            <a href="hitta_oss.html">Hitta oss</a>
+            <a href="boka.html">Boka</a>
+            <a href="Kontakta.html">Kontakta</a>
+
+        </nav>
+        <main>
+            <h1>Välkommen</h1>
+            <article>
+                <h2>Vår reception</h2>
+                <img src="benjo_reception.webp" alt="" width="600" height="450">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cum iusto ipsum dolores magnam,
+                    est deleniti veniam quod, deserunt nisi nostrum recusandae beatae provident assumenda repellat neque
+                    repudiandae, consequatur voluptatibus.</p>
+            </article>
+            <article>
+                <h2>Vårt hotel</h2>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="benjo_rum1.webp" style="width:100%" alt="">
+                        <div class="text">Ett fint rum</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="benjo_rum2.webp" style="width:100%" alt="">
+                        <div class="text">Ett till fint rum</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="benjo_rum3.webp" style="width:100%" alt="">
+                        <div class="text">Ännu ett till fint rum</div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+            </article>
+        </main>
+        <footer>
+            <p>Benjo Exclusive | Dusseldorf</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

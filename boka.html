@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Välkommen till Benjo Exclusive">
+    <title>Benjo Exclusive - Boka</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <header>
+
+            <img class="header-logo" src="benjo_exclusice_logo.webp" alt="">
+            <img class="header-img" src="benjo_exclusive_start.webp" alt="">
+        </header>
+        <nav>
+            <a href="index.html">Välkommen</a>
+            <a href="hitta_oss.html">Hitta oss</a>
+            <a class="active" href="boka.html">Boka</a>
+            <a href="Kontakta.html">Kontakta</a>
+
+        </nav>
+        <main>
+            <h1>Boka ditt rum</h1>
+            <article>
+                <h2>Skriv in din upgifter nedan</h2>
+                <form action="Scammed.html">
+                    <fieldset>
+
+                        <legend>Fyll i dina upgifter</legend>
+
+                        <label for="fname">Namn</label>
+                        <input id="fname" type="text" required>
+
+                        <label for="lname">Efternamn</label>
+                        <input id="lname" type="text" required>
+
+                        <label for="email">Email</label>
+                        <input id="email" required>
+
+                        <label for="mobile">Mobil nummer</label>
+                        <input id="mobile" required>
+                        <label for="arrival-time">Ankomst</label>
+                        <input type="datetime-local" id="arrival-time" name="meeting-time" min="2022-06-22T00:00"
+                            max="2024-12-14T00:00">
+                        <label for="departure-time">Avresa</label>
+                        <input type="datetime-local" id="departure-time" name="meeting-time" min="2022-06-22T00:00"
+                            max="2024-12-14T00:00">
+
+                        <label>Antal vuxna
+                            <select name="adults">
+                                <option value="">(välj)</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </label>
+
+                        <label>Antal barn
+                            <select name="children">
+                                <option value="">(välj)</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </label>
+
+                        <button type="submit">Skicka</button>
+                    </fieldset>
+                </form>
+            </article>
+            <article>
+                <h2>Boka ett såhär fint rum!</h2>
+                <img class="img-front" src="benjo_rum.webp" alt="" width="600" height="450">
+            </article>
+        </main>
+        <footer>
+            <p>Benjo Exclusive | Dusseldorf</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
